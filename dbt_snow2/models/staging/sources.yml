@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: BIKE_TRIPS
+    database: DEMO_DB
+    schema: TRIAL
+    tables:
+      - name: BIKE_TRIPS_RAW
+      - name: BIKE_TRIPS_ENRICH_TEMP
+      - name: BIKE_TRIPS_ENRICH
+
+
+      

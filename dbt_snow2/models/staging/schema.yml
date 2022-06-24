@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: tfm_trip_distance
+    description: "trip distance"
+    columns:
+      - name: bike_id
+        tests:
+          - not_null
+  
