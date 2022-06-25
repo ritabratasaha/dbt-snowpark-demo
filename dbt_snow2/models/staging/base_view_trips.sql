@@ -17,5 +17,5 @@ WHERE
     SPLIT_PART(SPLIT_PART(START_TIME,' ',1),'/',1) = {{var('load_month')}}
     AND 
     SPLIT_PART(SPLIT_PART(START_TIME,' ',1),'/',2) = {{var('load_day')}}
-LIMIT 50
+LIMIT 99  -- Limited to fifty for simplicity
 

@@ -6,8 +6,6 @@ sources:
     schema: TRIAL
     tables:
       - name: BIKE_TRIPS_RAW
-      - name: BIKE_TRIPS_ENRICH_TEMP
-      - name: BIKE_TRIPS_ENRICH
 
 
       
